@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "removeComments": false,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": false,
+    "declarationDir": "./dist",
+    "alwaysStrict": true,
+    "target": "ES2018",
+    "experimentalDecorators": true,
+    "strictNullChecks": false,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "config/database.js"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

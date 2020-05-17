@@ -1,0 +1,22 @@
+{
+  "name": "pgga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpileOnly src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.1",
+    "@types/nodemailer": "^6.4.0",
+    "@types/socket.io": "^2.1.5",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "socket.io": "^2.3.0",
+    "sucrase": "^3.14.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.2"
+  }
+}
