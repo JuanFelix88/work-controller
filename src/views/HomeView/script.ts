@@ -4,7 +4,7 @@ import { Days } from "../../controllers/DaysControllers";
 import { TimerConfig } from "../../controllers/SchemaController";
 import { setTimeout } from "timers";
 
-const baseUrl = "http://192.168.15.74:3000/api";
+const baseUrl = "https://work-controller.herokuapp.com/";
 
 declare var axios: AxiosInstance;
 
